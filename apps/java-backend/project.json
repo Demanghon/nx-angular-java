@@ -1,0 +1,15 @@
+{
+  "name": "java-backend",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/java-backend/src",
+  "prefix": "nx-angular-java",
+  "targets": {
+    "build": {
+      "executor": "@maven/package",
+      "outputs": [
+        "{options.outputPath}"
+      ]
+    }
+  }
+}
